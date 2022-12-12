@@ -13,4 +13,4 @@ class NullCust(AbsCust):
         pass
 
     def send_invoice(self):
-        print('Customer type "%s" not found.' % self._cust_type)
+        print(f'Customer type "{self._cust_type}" not found.')

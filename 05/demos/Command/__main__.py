@@ -13,7 +13,7 @@ def print_usage(commands):
     print('Usage: python -m Command CommandName [arguments]')
     print('Commands:')
     for command in commands.values():
-        print ('    %s' % command.description)
+        print(f'    {command.description}')
 
 
 def parse_command(commands, args):

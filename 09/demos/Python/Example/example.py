@@ -1,2 +1,2 @@
 import sys
-print("We running Python Version: " + sys.version)
+print(f"We running Python Version: {sys.version}")

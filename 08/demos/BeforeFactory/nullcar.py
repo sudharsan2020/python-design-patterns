@@ -3,7 +3,7 @@ class NullCar(object):
         self._carname = carname
 
     def start(self):
-        print('Unknown car "%s."' % self._carname)
+        print(f'Unknown car "{self._carname}."')
 
     def stop(self):
         pass

@@ -14,7 +14,7 @@ class Logger(object):
 
     def write_log(self, log_record):
         now = str(datetime.datetime.now())
-        record = '%s: %s' % (now, log_record)
+        record = f'{now}: {log_record}'
         self.log_file.write(record)
     
     def close_log(self):

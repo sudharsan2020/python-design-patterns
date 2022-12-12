@@ -5,7 +5,9 @@ from command_abc import AbsCommand
 class DoorLockCommand(AbsCommand):
     def __init__(self, door):
         if not isinstance(door, Door):
-            raise TypeError('Expected a Door object, got %s instead.' % door.__class__.__name__)
+            raise TypeError(
+                f'Expected a Door object, got {door.__class__.__name__} instead.'
+            )
         self.door = door
 
     def execute(self):

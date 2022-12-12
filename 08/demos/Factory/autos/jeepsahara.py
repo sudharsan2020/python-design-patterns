@@ -6,7 +6,7 @@ class JeepSahara(AbsAuto):
 		self._name = name
 
 	def start(self):
-		print('%s running ruggedly.' % self.name)
+		print(f'{self.name} running ruggedly.')
 
 	def stop(self):
-		print('%s shutting down.' % self.name)
+		print(f'{self.name} shutting down.')

@@ -15,4 +15,4 @@ class UpdateOrder(AbsCommand, AbsOrderCommand):
         print('Updated Database')
 
         # Simulate logging the update
-        print('Logging: Updated quantity from %s to %s' % (oldqty, self.newqty))
+        print(f'Logging: Updated quantity from {oldqty} to {self.newqty}')

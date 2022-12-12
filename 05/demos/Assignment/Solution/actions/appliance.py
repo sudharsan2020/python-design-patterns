@@ -3,7 +3,7 @@ class Appliance(object):
         self._name = name
 
     def on(self):
-        print('%s has been turned on.' % self._name)
+        print(f'{self._name} has been turned on.')
 
     def off(self):
-        print('%s has been turned off.' % self._name)
+        print(f'{self._name} has been turned off.')

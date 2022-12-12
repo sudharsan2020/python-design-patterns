@@ -10,4 +10,4 @@ class SMBCust(AbsCust):
         self._name = name
 
     def send_invoice(self):
-        print('Sending invoice to government customer "%s".' % self._name)
+        print(f'Sending invoice to government customer "{self._name}".')

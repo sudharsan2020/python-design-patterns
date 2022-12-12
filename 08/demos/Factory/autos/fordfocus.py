@@ -3,7 +3,7 @@ from .abs_auto import AbsAuto
 class FordFocus(AbsAuto):
 
 	def start(self):
-		print('%s running cooly!' % self.name)
+		print(f'{self.name} running cooly!')
 
 	def stop(self):
-		print('%s shutting down.' % self.name)
+		print(f'{self.name} shutting down.')

@@ -16,9 +16,9 @@ class CurrentKPIs(AbsObserver):
         self.display()
         
     def display(self):
-        print('Current open tickets: {}'.format(self.open_tickets))
-        print('New tickets in last hour: {}'.format(self.closed_tickets))
-        print('Tickets closed in last hour: {}'.format(self.new_tickets))          
+        print(f'Current open tickets: {self.open_tickets}')
+        print(f'New tickets in last hour: {self.closed_tickets}')
+        print(f'Tickets closed in last hour: {self.new_tickets}')
         print('*****\n')
       
     def __exit__(self, exc_type, exc_value, traceback):
